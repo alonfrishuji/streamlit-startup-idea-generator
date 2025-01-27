@@ -39,7 +39,7 @@ def generate_idea(industry, temperature=0.5):
     return response.message.content[0].text
 
 
-def generate_name(idea, temperature):
+def generate_name(idea, temperature=0.3s):
     
     prompt= f"""
 Generate a startup name given the startup idea. Return the startup name and without additional commentary.
