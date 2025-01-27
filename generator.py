@@ -1,5 +1,5 @@
 import cohere
-from dotenv import load_dotenv
+from py import load_dotenv
 import os
 
 load_dotenv()
